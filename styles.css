@@ -17,13 +17,21 @@ body{
 }
 /* this is nav buttons group */
 .nav-buttons-group{
-    width: 350px;
+    width: 450px;
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
 
 li{
+    font-size: 15px;
+    display: flex;
+    color: white;
+    display: inline-block;
+}
+
+li:hover{
+    font-size: 20px;
     display: flex;
     color: white;
     display: inline-block;
