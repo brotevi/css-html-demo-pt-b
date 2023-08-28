@@ -1,0 +1,60 @@
+body{
+    max-height: 100vh;
+}
+.up-section{
+
+    border: 1px black dashed;
+    /*text-align: center;*/ 
+    height: 50px;
+}
+
+/*nav button bar*/
+.nav{
+    border: 20px black solid ;
+    text-align: center; 
+    height: 30px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+/*nav buttons*/
+.nav-buttons-group{ 
+    width: 350px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   /* background-color: black;*/
+}
+
+li:{
+    font-size:  15px;
+    display: flex;
+    color:white;
+display: inline-block;
+
+}
+li:hover{
+    font-size: 20px;
+    display: flex;
+    color:white;
+display: inline-block;
+}
+
+.hero{
+    background-image: url(https://torange.biz/photofxnew/261/HD/game-design-background-261861.jpg);
+    border: 1px black dashed;
+    text-align: center; 
+    background-repeat: no-repeat;
+    height: 180px; 
+}
+.main-section{
+    border: 1px black dashed; 
+    text-align: center;
+    height: 100%; 
+}
+.footer{
+    background-color: lightgray; 
+    text-align: center;
+    height: 150px; 
+}
+
